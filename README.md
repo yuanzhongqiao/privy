@@ -1,160 +1,210 @@
-<div align="center">
-  <h1><b>💬 Privy</b></h1>
-  <p>
-    <strong>An open-source alternative to GitHub copilot that runs locally.</strong>
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div align="center" dir="auto">
+  <div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💬 privy </font></font></b></h1><a id="user-content--privy" class="anchor" aria-label="永久链接：💬 隐私" href="#-privy"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+  <p dir="auto">
+    <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本地运行的 GitHub copilot 的开源替代品。</font></font></strong>
   </p>
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/>
-  <img src="https://img.shields.io/github/v/release/srikanth235/privy" alt="GitHub: Releases"/>
-  <img src="https://img.shields.io/github/issues/srikanth235/privy" alt="GitHub Issues"/>
-  <img src="https://img.shields.io/github/stars/srikanth235/privy" alt="GitHub Stars"/>
-  <a href="https://twitter.com/getprivydev"  style="text-decoration: none; outline: none"><img src="https://img.shields.io/twitter/url/https/twitter.com/getprivydev.svg?style=social&label=%20%40getprivydev" alt="Twitter: @getprivydev"/></a>
-  <a href="https://discord.gg/wykDxGyUHA"  style="text-decoration: none; outline: none">
-  <img src="https://dcbadge.vercel.app/api/server/vAcVQ7XhR2?style=flat&compact=true" alt="Discord"/>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a4426cbe5c21edb002526331c7a8fbfa089e84a550567b02a0d829a98b136ad0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667"><img src="https://camo.githubusercontent.com/a4426cbe5c21edb002526331c7a8fbfa089e84a550567b02a0d829a98b136ad0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667" alt="许可证：麻省理工学院" data-canonical-src="https://img.shields.io/badge/License-MIT-yellow.svg" style="max-width: 100%;"></a>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/19d35d2c99a487fdf8745f28fc44af44461ad54a30994112fd5e92abf192ee46/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f7372696b616e74683233352f7072697679"><img src="https://camo.githubusercontent.com/19d35d2c99a487fdf8745f28fc44af44461ad54a30994112fd5e92abf192ee46/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f7372696b616e74683233352f7072697679" alt="GitHub：发布" data-canonical-src="https://img.shields.io/github/v/release/srikanth235/privy" style="max-width: 100%;"></a>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/59358f2e423774cdeba2cb3fb570bdce6e9829e3e26fbb6c68889f3fe348b596/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f7372696b616e74683233352f7072697679"><img src="https://camo.githubusercontent.com/59358f2e423774cdeba2cb3fb570bdce6e9829e3e26fbb6c68889f3fe348b596/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f7372696b616e74683233352f7072697679" alt="GitHub 问题" data-canonical-src="https://img.shields.io/github/issues/srikanth235/privy" style="max-width: 100%;"></a>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/9c20a583f2929e73d3b4e8a4ace12d8f23ae61542a8136bd6ecab163887124aa/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f7372696b616e74683233352f7072697679"><img src="https://camo.githubusercontent.com/9c20a583f2929e73d3b4e8a4ace12d8f23ae61542a8136bd6ecab163887124aa/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f7372696b616e74683233352f7072697679" alt="GitHub 之星" data-canonical-src="https://img.shields.io/github/stars/srikanth235/privy" style="max-width: 100%;"></a>
+  <a href="https://twitter.com/getprivydev" rel="nofollow"><img src="https://camo.githubusercontent.com/869de64afce3760e059fa501c244420010885f5b79cbc27d25710f2699e6be52/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f75726c2f68747470732f747769747465722e636f6d2f67657470726976796465762e7376673f7374796c653d736f6369616c266c6162656c3d2532302534306765747072697679646576" alt="推特：@getprivydev" data-canonical-src="https://img.shields.io/twitter/url/https/twitter.com/getprivydev.svg?style=social&amp;label=%20%40getprivydev" style="max-width: 100%;"></a>
+  <a href="https://discord.gg/wykDxGyUHA" rel="nofollow">
+  <img src="https://camo.githubusercontent.com/15c89c6f015323f30d6cd5720333c875f9750c416f5d24e369b7c5c649f22651/68747470733a2f2f646362616467652e76657263656c2e6170702f6170692f7365727665722f764163565137586852323f7374796c653d666c617426636f6d706163743d74727565" alt="不和谐" data-canonical-src="https://dcbadge.vercel.app/api/server/vAcVQ7XhR2?style=flat&amp;compact=true" style="max-width: 100%;">
   </a>
 </div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👀 看看实际效果</font></font></h2><a id="user-content--see-it-in-action" class="anchor" aria-label="永久链接：👀 查看实际效果" href="#-see-it-in-action"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实时代码完成</font></font></h4><a id="user-content-real-time-code-completion" class="anchor" aria-label="永久链接：实时代码完成" href="#real-time-code-completion"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><animated-image data-catalyst="" style="width: 760px;"><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/srikanth235/privy/master/app/vscode/asset/media/autocompletion.gif" data-target="animated-image.originalLink"><img src="https://raw.githubusercontent.com/srikanth235/privy/master/app/vscode/asset/media/autocompletion.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
+      <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
+        <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://raw.githubusercontent.com/srikanth235/privy/master/app/vscode/asset/media/autocompletion.gif" target="_blank">
+          
+        <span data-target="animated-image.imageContainer">
+            <img data-target="animated-image.replacedImage" alt="autocompletion.gif" class="AnimatedImagePlayer-animatedImage" src="https://raw.githubusercontent.com/srikanth235/privy/master/app/vscode/asset/media/autocompletion.gif" style="display: block; opacity: 1;">
+          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="760" height="453"></canvas></span></a>
+        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play autocompletion.gif" hidden=""></button>
+        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
+          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play autocompletion.gif">
+            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
+            </path></svg>
+            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
+              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
+            </svg>
+          </button>
+          <a data-target="animated-image.openButton" aria-label="Open autocompletion.gif in new window" class="AnimatedImagePlayer-button" href="https://raw.githubusercontent.com/srikanth235/privy/master/app/vscode/asset/media/autocompletion.gif" target="_blank">
+            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
+            </svg>
+          </a>
+        </span>
+      </span></animated-image></p>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与 AI 讨论您的代码</font></font></h4><a id="user-content-chat-with-ai-about-your-code" class="anchor" aria-label="永久链接：与 AI 讨论您的代码" href="#chat-with-ai-about-your-code"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><animated-image data-catalyst="" style="width: 760px;"><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/srikanth235/privy/master/app/vscode/asset/media/chat.gif" data-target="animated-image.originalLink" hidden=""><img src="https://raw.githubusercontent.com/srikanth235/privy/master/app/vscode/asset/media/chat.gif" style="max-width: 100%;" data-target="animated-image.originalImage" hidden=""></a>
+      <span class="AnimatedImagePlayer" data-target="animated-image.player">
+        <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://raw.githubusercontent.com/srikanth235/privy/master/app/vscode/asset/media/chat.gif" target="_blank">
+          <span data-target="animated-image.imageContainer">
+            <img data-target="animated-image.replacedImage" alt="" class="AnimatedImagePlayer-animatedImage" src="https://raw.githubusercontent.com/srikanth235/privy/master/app/vscode/asset/media/chat.gif">
+          </span>
+        </a>
+        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1"></button>
+        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls">
+          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button">
+            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
+            </path></svg>
+            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
+              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
+            </svg>
+          </button>
+          <a data-target="animated-image.openButton" aria-label="Open in new window" class="AnimatedImagePlayer-button" href="https://raw.githubusercontent.com/srikanth235/privy/master/app/vscode/asset/media/chat.gif" target="_blank">
+            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
+            </svg>
+          </a>
+        </span>
+      </span></animated-image></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🛠️先决条件</font></font></h2><a id="user-content-️-pre-requisites" class="anchor" aria-label="永久链接：🛠️先决条件" href="#️-pre-requisites"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您还没有这样做，请选择以下平台之一，在您的系统上</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本地</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行您选择的 LLM 。</font></font></p>
+<ul dir="auto">
+<li><a href="https://github.com/jmorganca/ollama"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">奥拉马</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（强烈推荐）</font></font></li>
+<li><a href="https://github.com/Mozilla-Ocho/llamafile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">llamafile</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（实验）</font></font></li>
+<li><a href="https://github.com/ggerganov/llama.cpp"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">llama.cpp</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（实验）</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👍 法学硕士推荐</font></font></h2><a id="user-content--llm-recommendations" class="anchor" aria-label="永久链接：👍 LLM 建议" href="#-llm-recommendations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，您需要分别</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置 LLM 的代码完成和聊天功能</font><font style="vertical-align: inherit;">。我们推荐的一些受欢迎的法学硕士如下。请根据您的硬件能力选择型号的尺寸（即1.3b、7b、13b或34b）。</font></font></p>
+<table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码完成</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">聊天</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">deepseek-coder:{1.3b 或 6.7b 或 33b }-base</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">deepseek-coder:{1.3b 或 6.7b 或 33b}-指令</font></font></td>
+<td><a href="https://ollama.com/library/deepseek-coder" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ollama 标签</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">,</font></font><a href="https://github.com/deepseek-ai/DeepSeek-Coder"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主页</font></font></a></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">codellama:{7b 或 13b 或 34b}-代码</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">codellama:{7b 或 13b 或 34b}-指示</font></font></td>
+<td><a href="https://ollama.com/library/codellama" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ollama 标签</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">,</font></font><a href="https://github.com/facebookresearch/codellama"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主页</font></font></a></td>
+</tr>
+<tr>
+<td></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">米斯特拉尔：{7b}-指示</font></font></td>
+<td><a href="https://ollama.com/library/mistral" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ollama 标签</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">,</font></font><a href="https://mistral.ai/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主页</font></font></a></td>
+</tr>
+</tbody>
+</table>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://github.com/srikanth235/benchllama"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以使用Benchllama</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">评估当地的法学硕士来选择模型</font><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🚀 快速安装</font></font></h2><a id="user-content--quick-install" class="anchor" aria-label="永久链接：🚀 快速安装" href="#-quick-install"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以从 Visual Studio Code Marketplace 或 Open VSX 注册表安装 Privy 扩展。</font></font></p>
+<ul dir="auto">
+<li><a href="https://marketplace.visualstudio.com/items?itemName=privy.privy-vscode" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Visual Studio 代码市场</font></font></a></li>
+<li><a href="https://open-vsx.org/extension/Privy/privy-vscode" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打开 VSX 注册表</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚙️ 配置选项</font></font></h2><a id="user-content-️-configuration-options" class="anchor" aria-label="永久链接：⚙️ 配置选项" href="#️-configuration-options"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请在隐私扩展的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中设置以下选项。</font></font></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">privy.provider</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ( </font></font><code>required</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">)：选择用于本地运行 LLM 的平台。支持使用 OpenAI，但这会影响解决方案的隐私方面。默认为</font></font><code>Ollama</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">privy.providerUrl</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ( </font></font><code>required</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">)：用于本地运行 LLM 的平台的 URL。默认为</font></font><code>http://localhost:11434</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">privy.autocomplete.mode</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：使用此设置来启用/禁用自动完成功能。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">privy.autocomplete.model</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：输入要用于自动补全的本地 Ollama 模型的名称。支持的格式有 DeepSeek Coder、LLama 和稳定代码。我们选择了 deepseek-coder:1.3b-base，因为它需要最少的 VRAM。您可以根据您的硬件设置进行自定义。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">privy.autocomplete.debounceWait</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：使用它来设置触发下一次完成之前的时间间隔（以毫秒为单位）。默认值为 300 毫秒。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">privy.model</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：选择您想与之聊天的法学硕士。目前，支持 DeepSeek、Mistral 和 CodeLLama。如果您想使用其他LLM，请进行相应的选择</font></font><code>custom</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和配置</font></font><code>privy.customModel</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">privy.customModel</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：如果您想选择 Ollama 上运行的任何其他模型，请输入它们的名称。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✨ 主要特点</font></font></h1><a id="user-content--key-features" class="anchor" aria-label="永久链接：✨ 主要特点" href="#-key-features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👍 开源</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔐隐私第一</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🚀 自动代码完成</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤖 副驾驶风格聊天</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💬 话题式对话</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💻 支持代码解释、单元测试、查找错误、诊断错误等</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⌨️ 键盘快捷键</font></font></h1><a id="user-content-️-keyboard-shortcuts" class="anchor" aria-label="永久链接：⌨️键盘快捷键" href="#️-keyboard-shortcuts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快捷方式（苹果机）</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Alt + \</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（适用于 Windows/Linux）或</font></font><code>Cmd + \</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（适用于 Mac）</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">触发内联代码完成</font></font></td>
+</tr>
+<tr>
+<td><code>Ctrl + Alt + c</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（适用于 Windows/Linux）或</font></font><code>Ctrl + Cmd + c</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（适用于 Mac）</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开始聊天</font></font></td>
+</tr>
+</tbody>
+</table>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💡提示和技巧</font></font></h1><a id="user-content--tips-and-tricks" class="anchor" aria-label="永久链接：💡提示和技巧" href="#-tips-and-tricks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解这些概念将帮助您充分利用 Privy。</font></font></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请明确点</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。例如，当您要求更改代码时，请提供具体名称并描述所需的结果。避免含糊的参考。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供上下文</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。您可以包含编程语言（“Rust”）或基本问题的其他相关上下文。您可以选择有意义的代码片段进行代码解释和错误诊断。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要盲目相信答案</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。能够回答您的问题对于 Privy 来说是一大进步。它可能会给出不准确的答案，尤其是在谈论不太知名的话题或对话变得过于详细时。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">针对不同的主题使用不同的聊天线程</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。具有特定主题的较短主题将有助于 Privy 做出更准确的响应。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤝 制作人员</font></font></h2><a id="user-content--credits" class="anchor" aria-label="永久链接：🤝 学分" href="#-credits"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/rubberduck-ai/rubberduck-vscode"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RubberDuck AI</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 这个项目很大程度上受到了 RubberDuck AI 工作的启发，我们感谢他们在此基础上进行构建。以下是该项目的贡献者名单，我们向他们致以诚挚的谢意。</font></font></li>
+</ul>
 
-## 👀 See it in action
 
-#### Real time code completion
 
-<img src="https://raw.githubusercontent.com/srikanth235/privy/master/app/vscode/asset/media/autocompletion.gif" width="760"/>
-
-#### Chat with AI about your code
-
-<img src="https://raw.githubusercontent.com/srikanth235/privy/master/app/vscode/asset/media/chat.gif" width="760"/>
-
-## 🛠️ Pre-requisites
-
-If you haven't done already, please pick one of the following platforms to run LLM of your choice on your system **locally**.
-
-- [Ollama](https://github.com/jmorganca/ollama) (Highly Recommended)
-- [llamafile](https://github.com/Mozilla-Ocho/llamafile) (Experimental)
-- [llama.cpp](https://github.com/ggerganov/llama.cpp) (Experimental)
-
-## 👍 LLM Recommendations
-
-Please note that you need to configure LLM for code completion and chat feature **separately**. Some of the popular LLMs that we recommend are as follows. Please pick the size (i.e. 1.3b, 7b, 13b or 34b) of the model based on your hardware capabilities.
-
-| Code Completion                            | Chat                                          | Links                                                                                                           |
-| ------------------------------------------ | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| deepseek-coder:{1.3b or 6.7b or 33b }-base | deepseek-coder:{1.3b or 6.7b or 33b}-instruct | [Ollama Tags](https://ollama.com/library/deepseek-coder), [Home](https://github.com/deepseek-ai/DeepSeek-Coder) |
-| codellama:{7b or 13b or 34b}-code          | codellama:{7b or 13b or 34b}-instruct         | [Ollama Tags](https://ollama.com/library/codellama), [Home](https://github.com/facebookresearch/codellama)      |
-|                                            | mistral:{7b}-instruct                         | [Ollama Tags](https://ollama.com/library/mistral), [Home](https://mistral.ai/)                                  |
-
-You can also pick a model by evaluating your local LLMs using [Benchllama](https://github.com/srikanth235/benchllama).
-
-## 🚀 Quick Install
-
-You can install Privy extension from the Visual Studio Code Marketplace or from the Open VSX Registry.
-
-- [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=privy.privy-vscode)
-- [Open VSX Registry](https://open-vsx.org/extension/Privy/privy-vscode)
-
-## ⚙️ Configuration Options
-
-Please set the following options in the **settings** for Privy extension.
-
-- **privy.provider**(`required`): Pick the platform that is being used for running LLMs locally. There is support for using OpenAI, but this will affect the privacy aspects of the solution. The default is `Ollama`.
-- **privy.providerUrl**(`required`): The URL of the platform that is being used for running LLMs locally. The default is `http://localhost:11434`.
-- **privy.autocomplete.mode**: Use this setting for enabling/disabling autocompletion feature.
-- **privy.autocomplete.model**: Input the name of local Ollama model that you want to use for autocompletion. Supported formats are DeepSeek Coder, LLama & Stable Code. We have chosen deepseek-coder:1.3b-base as it requires least amount of VRAM. You can customize based on your hardware setup.
-- **privy.autocomplete.debounceWait**: Use this for setting the time gap before triggering the next completion in milliseconds. Default is 300 ms.
-- **privy.model**: Select the LLM that you want to chat with. Currently, supports DeepSeek, Mistral and CodeLLama. If you want to use other LLMs, please select `custom` and configure `privy.customModel` accordingly.
-- **privy.customModel**: If you want to pick any other models running on your Ollama, please input their name.
-
-# ✨ Key Features
-
-- 👍 Open Source
-- 🔐 Privacy first
-- 🚀 Auto code completion
-- 🤖 Copilot style chat
-- 💬 Threaded conversations
-- 💻 Support for code explanation, unit tests, finding bugs, diagnosing errors etc
-
-# ⌨️ Keyboard shortcuts
-
-| Shortcut (Mac)                                                    | Description                    |
-| ----------------------------------------------------------------- | ------------------------------ |
-| `Alt + \` (for Windows/Linux) or `Cmd + \` (for Mac)              | Trigger inline code completion |
-| `Ctrl + Alt + c` (for Windows/Linux) or `Ctrl + Cmd + c`(for Mac) | Start Chat                     |
-
-# 💡 Tips and Tricks
-
-Understanding these concepts will help you get the most out of Privy.
-
-- **Be specific**.
-  When you ask for, e.g., code changes, include concrete names and describe the desired outcome. Avoid vague references.
-- **Provide context**.
-  You can include the programming language ("in Rust") or other relevant contexts for basic questions.
-  You can select a meaningful code snippet for code explanations and error diagnosis.
-- **Do not trust answers blindly**.
-  It's a big step for Privy to be able to respond to your questions.
-  It might respond with inaccurate answers, especially when talking about
-  less well-known topics or when the conversation gets too detailed.
-- **Use different chat threads for different topics**.
-  Shorter threads with specific topics will help Privy respond more accurately.
-
-## 🤝 Credits
-
-- [RubberDuck AI](https://github.com/rubberduck-ai/rubberduck-vscode) - This project is heavily inspired by RubberDuck AI's work, and we're indebted to them for building on top of it. The following is the list of contributors to this project and we extend our sincere gratitude to all of them.
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="25%"><a href="http://larsgrammel.de"><img src="https://avatars0.githubusercontent.com/u/205036?v=4?s=100" width="100px;" alt="Lars Grammel"/><br /><sub><b>Lars Grammel</b></sub></a><br /><a href="#ideas-lgrammel" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=lgrammel" title="Code">💻</a> <a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=lgrammel" title="Documentation">📖</a> <a href="https://github.com/rubberduck-ai/rubberduck-vscode/pulls?q=is%3Apr+reviewed-by%3Algrammel" title="Reviewed Pull Requests">👀</a> <a href="#question-lgrammel" title="Answering Questions">💬</a> <a href="https://github.com/rubberduck-ai/rubberduck-vscode/issues?q=author%3Algrammel" title="Bug reports">🐛</a></td>
-      <td align="center" valign="top" width="25%"><a href="http://iainvm.github.io"><img src="https://avatars.githubusercontent.com/u/2806167?v=4?s=100" width="100px;" alt="Iain Majer"/><br /><sub><b>Iain Majer</b></sub></a><br /><a href="https://github.com/rubberduck-ai/rubberduck-vscode/issues?q=author%3Aiainvm" title="Bug reports">🐛</a> <a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=iainvm" title="Code">💻</a></td>
-      <td align="center" valign="top" width="25%"><a href="https://nicoespeon.com"><img src="https://avatars0.githubusercontent.com/u/1094774?v=4?s=100" width="100px;" alt="Nicolas Carlo"/><br /><sub><b>Nicolas Carlo</b></sub></a><br /><a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=nicoespeon" title="Code">💻</a> <a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=nicoespeon" title="Documentation">📖</a> <a href="https://github.com/rubberduck-ai/rubberduck-vscode/issues?q=author%3Anicoespeon" title="Bug reports">🐛</a></td>
-      <td align="center" valign="top" width="25%"><a href="https://github.com/RatoGBM"><img src="https://avatars.githubusercontent.com/u/80184495?v=4?s=100" width="100px;" alt="RatoGBM"/><br /><sub><b>RatoGBM</b></sub></a><br /><a href="https://github.com/rubberduck-ai/rubberduck-vscode/issues?q=author%3ARatoGBM" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="25%"><a href="http://larsgrammel.de" rel="nofollow"><img src="https://avatars0.githubusercontent.com/u/205036?v=4?s=100" width="100px;" alt="拉尔斯·格拉梅尔" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">拉尔斯</font></font></b></sub></a><font style="vertical-align: inherit;"><a href="https://github.com/rubberduck-ai/rubberduck-vscode/issues?q=author%3Algrammel" title="错误报告"><font style="vertical-align: inherit;">·</font></a><a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=lgrammel" title="代码"><font style="vertical-align: inherit;">格拉梅尔</font></a></font><br><a href="#ideas-lgrammel" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤔💻📖👀💬🐛</font></font></a> <font style="vertical-align: inherit;"><a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=lgrammel" title="文档"><font style="vertical-align: inherit;">&ZeroWidthSpace;</font></a><a href="https://github.com/rubberduck-ai/rubberduck-vscode/pulls?q=is%3Apr+reviewed-by%3Algrammel" title="审查拉取请求"><font style="vertical-align: inherit;">&ZeroWidthSpace;</font></a><a href="#question-lgrammel" title="回答问题"><font style="vertical-align: inherit;">&ZeroWidthSpace;</font></a></font><a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=lgrammel" title="代码"><font style="vertical-align: inherit;"></font></a> <a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=lgrammel" title="文档"><font style="vertical-align: inherit;"></font></a> <a href="https://github.com/rubberduck-ai/rubberduck-vscode/pulls?q=is%3Apr+reviewed-by%3Algrammel" title="审查拉取请求"><font style="vertical-align: inherit;"></font></a> <a href="#question-lgrammel" title="回答问题"><font style="vertical-align: inherit;"></font></a> <a href="https://github.com/rubberduck-ai/rubberduck-vscode/issues?q=author%3Algrammel" title="错误报告"><font style="vertical-align: inherit;"></font></a></td>
+      <td align="center" valign="top" width="25%"><a href="http://iainvm.github.io" rel="nofollow"><img src="https://avatars.githubusercontent.com/u/2806167?v=4?s=100" width="100px;" alt="伊恩·马耶尔" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"></font></b></sub></a><font style="vertical-align: inherit;"><a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=iainvm" title="代码"><font style="vertical-align: inherit;">伊恩·</font></a><a href="http://iainvm.github.io" rel="nofollow"><sub><b><font style="vertical-align: inherit;">马耶尔</font></b></sub></a></font><br><a href="https://github.com/rubberduck-ai/rubberduck-vscode/issues?q=author%3Aiainvm" title="错误报告"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🐛💻</font></font></a> <a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=iainvm" title="代码"><font style="vertical-align: inherit;"></font></a></td>
+      <td align="center" valign="top" width="25%"><a href="https://nicoespeon.com" rel="nofollow"><img src="https://avatars0.githubusercontent.com/u/1094774?v=4?s=100" width="100px;" alt="尼古拉斯·卡罗" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尼古拉斯</font></font></b></sub></a><font style="vertical-align: inherit;"><a href="https://github.com/rubberduck-ai/rubberduck-vscode/issues?q=author%3Anicoespeon" title="错误报告"><font style="vertical-align: inherit;">·</font></a><a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=nicoespeon" title="文档"><font style="vertical-align: inherit;">卡洛</font></a></font><br><a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=nicoespeon" title="代码"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💻📖🐛</font></font></a> <a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=nicoespeon" title="文档"><font style="vertical-align: inherit;"></font></a> <a href="https://github.com/rubberduck-ai/rubberduck-vscode/issues?q=author%3Anicoespeon" title="错误报告"><font style="vertical-align: inherit;"></font></a></td>
+      <td align="center" valign="top" width="25%"><a href="https://github.com/RatoGBM"><img src="https://avatars.githubusercontent.com/u/80184495?v=4?s=100" width="100px;" alt="拉托GBM" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">拉托 GBM</font></font></b></sub></a><br><a href="https://github.com/rubberduck-ai/rubberduck-vscode/issues?q=author%3ARatoGBM" title="错误报告"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 🐛</font></font></a></td>
     </tr>
     <tr>
-      <td align="center" valign="top" width="25%"><a href="https://www.lionelokpeicha.dev/"><img src="https://avatars.githubusercontent.com/u/60504466?v=4?s=100" width="100px;" alt="Lionel Okpeicha"/><br /><sub><b>Lionel Okpeicha</b></sub></a><br /><a href="https://github.com/rubberduck-ai/rubberduck-vscode/issues?q=author%3Alohnsonok" title="Bug reports">🐛</a></td>
-      <td align="center" valign="top" width="25%"><a href="https://github.com/MercerK"><img src="https://avatars.githubusercontent.com/u/13123338?v=4?s=100" width="100px;" alt="MercerK"/><br /><sub><b>MercerK</b></sub></a><br /><a href="https://github.com/rubberduck-ai/rubberduck-vscode/issues?q=author%3AMercerK" title="Bug reports">🐛</a></td>
-      <td align="center" valign="top" width="25%"><a href="https://github.com/lundeen-bryan"><img src="https://avatars.githubusercontent.com/u/13512507?v=4?s=100" width="100px;" alt="Lundeen.Bryan"/><br /><sub><b>Lundeen.Bryan</b></sub></a><br /><a href="#ideas-lundeen-bryan" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center" valign="top" width="25%"><a href="https://github.com/DucoG"><img src="https://avatars.githubusercontent.com/u/67788719?v=4?s=100" width="100px;" alt="DucoG"/><br /><sub><b>DucoG</b></sub></a><br /><a href="#ideas-DucoG" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="25%"><a href="https://www.lionelokpeicha.dev/" rel="nofollow"><img src="https://avatars.githubusercontent.com/u/60504466?v=4?s=100" width="100px;" alt="莱昂内尔·奥克佩查" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">莱昂内尔·奥克佩查</font></font></b></sub></a><br><a href="https://github.com/rubberduck-ai/rubberduck-vscode/issues?q=author%3Alohnsonok" title="错误报告"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🐛</font></font></a></td>
+      <td align="center" valign="top" width="25%"><a href="https://github.com/MercerK"><img src="https://avatars.githubusercontent.com/u/13123338?v=4?s=100" width="100px;" alt="美世公司" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">美世</font></font></b></sub></a><br><a href="https://github.com/rubberduck-ai/rubberduck-vscode/issues?q=author%3AMercerK" title="错误报告"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">K🐛</font></font></a></td>
+      <td align="center" valign="top" width="25%"><a href="https://github.com/lundeen-bryan"><img src="https://avatars.githubusercontent.com/u/13512507?v=4?s=100" width="100px;" alt="伦丁·布莱恩" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">伦丁.布莱恩</font></font></b></sub></a><br><a href="#ideas-lundeen-bryan" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤔</font></font></a></td>
+      <td align="center" valign="top" width="25%"><a href="https://github.com/DucoG"><img src="https://avatars.githubusercontent.com/u/67788719?v=4?s=100" width="100px;" alt="杜科格" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">杜科</font></font></b></sub></a><br><a href="#ideas-DucoG" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">G🤔</font></font></a></td>
     </tr>
     <tr>
-      <td align="center" valign="top" width="25%"><a href="https://github.com/sbstn87"><img src="https://avatars.githubusercontent.com/u/37237675?v=4?s=100" width="100px;" alt="sbstn87"/><br /><sub><b>sbstn87</b></sub></a><br /><a href="#ideas-sbstn87" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center" valign="top" width="25%"><a href="https://dev.page/tennox"><img src="https://avatars.githubusercontent.com/u/2084639?v=4?s=100" width="100px;" alt="Manuel"/><br /><sub><b>Manuel</b></sub></a><br /><a href="#ideas-tennox" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center" valign="top" width="25%"><a href="https://github.com/alessandro-newzoo"><img src="https://avatars.githubusercontent.com/u/47320294?v=4?s=100" width="100px;" alt="alessandro-newzoo"/><br /><sub><b>alessandro-newzoo</b></sub></a><br /><a href="#ideas-alessandro-newzoo" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center" valign="top" width="25%"><a href="https://github.com/Void-n-Null"><img src="https://avatars.githubusercontent.com/u/70048414?v=4?s=100" width="100px;" alt="Void&Null"/><br /><sub><b>Void&Null</b></sub></a><br /><a href="#ideas-Void-n-Null" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="25%"><a href="https://github.com/sbstn87"><img src="https://avatars.githubusercontent.com/u/37237675?v=4?s=100" width="100px;" alt="SBSTN87" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sbstn87</font></font></b></sub></a><br><a href="#ideas-sbstn87" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 🤔</font></font></a></td>
+      <td align="center" valign="top" width="25%"><a href="https://dev.page/tennox" rel="nofollow"><img src="https://avatars.githubusercontent.com/u/2084639?v=4?s=100" width="100px;" alt="曼努埃尔" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">曼努埃尔</font></font></b></sub></a><br><a href="#ideas-tennox" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤔</font></font></a></td>
+      <td align="center" valign="top" width="25%"><a href="https://github.com/alessandro-newzoo"><img src="https://avatars.githubusercontent.com/u/47320294?v=4?s=100" width="100px;" alt="亚历山德罗·纽祖" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">亚历山德罗·纽祖</font></font></b></sub></a><br><a href="#ideas-alessandro-newzoo" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤔</font></font></a></td>
+      <td align="center" valign="top" width="25%"><a href="https://github.com/Void-n-Null"><img src="https://avatars.githubusercontent.com/u/70048414?v=4?s=100" width="100px;" alt="无效&amp;零" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">空与空</font></font></b></sub></a><br><a href="#ideas-Void-n-Null" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤔</font></font></a></td>
     </tr>
     <tr>
-      <td align="center" valign="top" width="25%"><a href="https://github.com/WittyDingo"><img src="https://avatars.githubusercontent.com/u/63050074?v=4?s=100" width="100px;" alt="WittyDingo"/><br /><sub><b>WittyDingo</b></sub></a><br /><a href="#ideas-WittyDingo" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center" valign="top" width="25%"><a href="https://github.com/eva-lam"><img src="https://avatars.githubusercontent.com/u/29745387?v=4?s=100" width="100px;" alt="Eva"/><br /><sub><b>Eva</b></sub></a><br /><a href="#ideas-eva-lam" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center" valign="top" width="25%"><a href="https://github.com/AlexeyLavrentev"><img src="https://avatars.githubusercontent.com/u/105936590?v=4?s=100" width="100px;" alt="AlexeyLavrentev"/><br /><sub><b>AlexeyLavrentev</b></sub></a><br /><a href="#ideas-AlexeyLavrentev" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center" valign="top" width="25%"><a href="https://github.com/linshu123"><img src="https://avatars.githubusercontent.com/u/2569559?v=4?s=100" width="100px;" alt="linshu123"/><br /><sub><b>linshu123</b></sub></a><br /><a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=linshu123" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="25%"><a href="https://github.com/WittyDingo"><img src="https://avatars.githubusercontent.com/u/63050074?v=4?s=100" width="100px;" alt="机智的野狗" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">机智的野狗</font></font></b></sub></a><br><a href="#ideas-WittyDingo" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤔</font></font></a></td>
+      <td align="center" valign="top" width="25%"><a href="https://github.com/eva-lam"><img src="https://avatars.githubusercontent.com/u/29745387?v=4?s=100" width="100px;" alt="伊娃" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">伊娃</font></font></b></sub></a><br><a href="#ideas-eva-lam" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤔</font></font></a></td>
+      <td align="center" valign="top" width="25%"><a href="https://github.com/AlexeyLavrentev"><img src="https://avatars.githubusercontent.com/u/105936590?v=4?s=100" width="100px;" alt="阿列克谢·拉夫伦捷夫" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿列克谢·拉夫伦捷夫</font></font></b></sub></a><br><a href="#ideas-AlexeyLavrentev" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤔</font></font></a></td>
+      <td align="center" valign="top" width="25%"><a href="https://github.com/linshu123"><img src="https://avatars.githubusercontent.com/u/2569559?v=4?s=100" width="100px;" alt="林书123" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">林书</font></font></b></sub></a><br><a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=linshu123" title="文档"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">123📖</font></font></a></td>
     </tr>
     <tr>
-      <td align="center" valign="top" width="25%"><a href="https://unquietwiki.com"><img src="https://avatars.githubusercontent.com/u/1007551?v=4?s=100" width="100px;" alt="Michael Adams"/><br /><sub><b>Michael Adams</b></sub></a><br /><a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=unquietwiki" title="Code">💻</a> <a href="https://github.com/rubberduck-ai/rubberduck-vscode/issues?q=author%3Aunquietwiki" title="Bug reports">🐛</a></td>
-      <td align="center" valign="top" width="25%"><a href="https://github.com/restlessronin"><img src="https://avatars.githubusercontent.com/u/88921269?v=4?s=100" width="100px;" alt="restlessronin"/><br /><sub><b>restlessronin</b></sub></a><br /><a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=restlessronin" title="Code">💻</a></td>
+      <td align="center" valign="top" width="25%"><a href="https://unquietwiki.com" rel="nofollow"><img src="https://avatars.githubusercontent.com/u/1007551?v=4?s=100" width="100px;" alt="迈克尔·亚当斯" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">迈克尔·亚当</font></font></b></sub></a><font style="vertical-align: inherit;"><a href="https://github.com/rubberduck-ai/rubberduck-vscode/issues?q=author%3Aunquietwiki" title="错误报告"><font style="vertical-align: inherit;">斯</font></a></font><br><a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=unquietwiki" title="代码"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💻🐛</font></font></a> <a href="https://github.com/rubberduck-ai/rubberduck-vscode/issues?q=author%3Aunquietwiki" title="错误报告"><font style="vertical-align: inherit;"></font></a></td>
+      <td align="center" valign="top" width="25%"><a href="https://github.com/restlessronin"><img src="https://avatars.githubusercontent.com/u/88921269?v=4?s=100" width="100px;" alt="不安宁" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">静思宁</font></font></b></sub></a><br><a href="https://github.com/rubberduck-ai/rubberduck-vscode/commits?author=restlessronin" title="代码"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💻</font></font></a></td>
     </tr>
   </tbody>
 </table>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🎉 代码贡献</font></font></h2><a id="user-content--code-contributions" class="anchor" aria-label="永久链接：🎉 代码贡献" href="#-code-contributions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><a href="https://github.com/srikanth235/privy/blob/master/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a></h3><a id="user-content-contributing-guide" class="anchor" aria-label="永久链接：贡献指南" href="#contributing-guide"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读我们的</font></font><a href="https://github.com/srikanth235/privy/blob/master/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，了解我们的开发流程、如何提出错误修复和改进，以及如何构建和测试您的更改。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><a href="https://github.com/srikanth235/privy/labels/good%20first%20issue"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">好的第一期</font></font></a></h3><a id="user-content-good-first-issues" class="anchor" aria-label="永久链接：好的第一个问题" href="#good-first-issues"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了帮助您入门并熟悉我们的贡献流程，我们列出了一系列</font></font><a href="https://github.com/srikanth235/privy/labels/good%20first%20issue"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">好的首要问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，其中包含范围相对有限的内容。这是一个很好的起点！</font></font></p>
 
-## 🎉 Code Contributions
-
-### [Contributing Guide][contributing]
-
-Read our [contributing guide][contributing] to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes.
-
-### [Good First Issues][good-first-issues]
-
-To help you get your feet wet and become familiar with our contribution process, we have a list of [good first issues][good-first-issues] that contains things with a relatively limited scope. This is a great place to get started!
-
-<!-- Links -->
-
-[contributing]: https://github.com/srikanth235/privy/blob/master/CONTRIBUTING.md
-[good-first-issues]: https://github.com/srikanth235/privy/labels/good%20first%20issue
-
-## :star: Star History
-
-<a href="https://star-history.com/#ise-uiuc/magicoder&Timeline">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=srikanth235/privy&type=Timeline&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=srikanth235/privy&type=Timeline" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=srikanth235/privy&type=Timeline" />
-  </picture>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⭐ 明星历史</font></font></h2><a id="user-content-star-star-history" class="anchor" aria-label="永久链接： :star: 明星历史" href="#star-star-history"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<a href="https://star-history.com/#ise-uiuc/magicoder&amp;Timeline" rel="nofollow">
+  <themed-picture data-catalyst-inline="true" data-catalyst=""><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://camo.githubusercontent.com/69c6c4a68b034e5cc9abb4179d3390a5b1dccfacce7b7e60651845477abca071/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d7372696b616e74683233352f707269767926747970653d54696d656c696e65267468656d653d6461726b" data-canonical-src="https://api.star-history.com/svg?repos=srikanth235/privy&amp;type=Timeline&amp;theme=dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://camo.githubusercontent.com/ba85e277c691e29f3886a044128a13ba3810a54783db83e67dffdbe34e824643/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d7372696b616e74683233352f707269767926747970653d54696d656c696e65" data-canonical-src="https://api.star-history.com/svg?repos=srikanth235/privy&amp;type=Timeline">
+    <img alt="明星历史图" src="https://camo.githubusercontent.com/ba85e277c691e29f3886a044128a13ba3810a54783db83e67dffdbe34e824643/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d7372696b616e74683233352f707269767926747970653d54696d656c696e65" data-canonical-src="https://api.star-history.com/svg?repos=srikanth235/privy&amp;type=Timeline" style="visibility:visible;max-width:100%;">
+  </picture></themed-picture>
 </a>
+</article></div>
